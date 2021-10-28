@@ -12,4 +12,4 @@ jobs:
           # Target branch
           PAGES_BRANCH: gh-pages
           # Provide personal access token
-          TOKEN: ${{ secrets.gh_page_deploy }}
+          TOKEN: ${{ secrets.TOKEN }}
