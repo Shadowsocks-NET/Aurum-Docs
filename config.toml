@@ -17,11 +17,6 @@ generate_feed = true
 # When set to "true", the generated HTML files are minified.
 minify_html = false
 
-# The taxonomies to be rendered for the site and their configuration.
-taxonomies = [
-  {name = "authors"}, # Basic definition: no feed or pagination
-]
-
 build_search_index = true
 
 [search]
@@ -49,27 +44,26 @@ theme_color = "#fff"
 title_separator = "|"  # set as |, -, _, etc
 title_addition = "ACross Wiki"
 
-
 # Set date format in blog publish metadata
 timeformat = "%B %e, %Y" # e.g. June 14, 2021
 timezone = "America/New_York"
 
 # Edit page on reposity or not
 edit_page = true
-docs_repo = ""
+docs_repo = "https://github.com/ArkToria/arktoria.github.io"
 repo_branch = "main"
 
 ## Math settings
 # options: true, false. Enable math support globally,
 # default: false. You can always enable math on a per page.
-math = false
+math = true
 library = "katex"  # options: "katex", "mathjax". default is "katex".
 
 ## Open Graph + Twitter Cards
 [extra.open]
 enable = true
 # this image will be used as fallback if a page has no image of its own
-image = "doks.png"
+image = "images/logo_pure.svg"
 twitter_site = ""
 twitter_creator = ""
 facebook_author = ""
@@ -79,8 +73,8 @@ og_locale = "en_US"
 ## JSON-LD
 [extra.schema]
 type = "Organization"
-logo = "logo-doks.png"
-github = "https://github.com/ArkToria/ACross"
+logo = "images/lines.svg"
+github = "https://github.com/ArkToria"
 section = "blog" # see config.extra.main~url
 ## Sitelinks Search Box
 site_links_search_box = true
