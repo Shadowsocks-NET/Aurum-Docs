@@ -50,6 +50,28 @@ body.dark .toggle-dark {
   display: none;
 }
 
+body .toggle-en {
+  font-size: larger;
+  display: none;
+}
+
+body .toggle-zh {
+  font-size: larger;
+  display: display;
+}
+
+body.zh .toggle-en {
+  font-size: larger;
+
+  display: block;
+}
+
+body.zh .toggle-zh {
+  font-size: larger;
+
+  display: none;
+}
+
 .btn-clipboard {
   display: none;
 }
