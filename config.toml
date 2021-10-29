@@ -1,5 +1,5 @@
 base_url = "/"
-title = "ACross Wiki"
+title = "ACross"
 description = "ACross is a GUI client for v2ray core"
 theme = "adidoks"
 default_language = "en"
@@ -8,11 +8,11 @@ generate_feed = true
 minify_html = false
 build_search_index = true
 
-[languages.zh]
-build_search_index = false
-taxonomies = [
-    {name = "tags", lang = "zh"},
-]
+# [languages.zh]
+# build_search_index = false
+# taxonomies = [
+#     {name = "tags", lang = "zh"},
+# ]
 
 [search]
 include_title = true
@@ -71,10 +71,10 @@ name = "Code of Conduct"
 url = "/docs/contributing/code-of-conduct/"
 weight = 20
 
-[languages.en.translations]
+# [languages.en.translations]
 
-[languages.zh.translations]
-title = "ACross 文档"
-index_page = "主页"
-en = "English"
-zh = "简体中文"
+# [languages.zh.translations]
+# title = "ACross 文档"
+# index_page = "主页"
+# en = "English"
+# zh = "简体中文"
