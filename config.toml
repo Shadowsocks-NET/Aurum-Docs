@@ -1,6 +1,6 @@
 base_url = "/"
-title = "ACross"
-description = "ACross is a GUI client for v2ray core"
+title = "Aurum"
+description = "Aurum is a GUI client for v2ray core"
 theme = "adidoks"
 default_language = "en"
 compile_sass = true
@@ -23,15 +23,15 @@ include_content = true
 highlight_code = true
 
 [extra]
-author = "ACross"
-github = "https://github.com/ArkToria/ACross"
-is_netlify = true
+author = "Aurum"
+github = "https://github.com/Shadowsocks-NET/Aurum"
+is_netlify = false
 language_code = "en-US"
 theme_color = "#fff"
 title_separator = "|"  # set as |, -, _, etc
-title_addition = "ACross Wiki"
+title_addition = "Aurum Wiki"
 edit_page = true
-docs_repo = "https://github.com/ArkToria/arktoria.github.io"
+docs_repo = "https://github.com/Shadowsocks-NET/Aurum-Docs"
 repo_branch = "main"
 math = true
 library = "katex"  # options: "katex", "mathjax". default is "katex".
@@ -74,7 +74,7 @@ weight = 20
 # [languages.en.translations]
 
 # [languages.zh.translations]
-# title = "ACross 文档"
+# title = "Aurum 文档"
 # index_page = "主页"
 # en = "English"
 # zh = "简体中文"
