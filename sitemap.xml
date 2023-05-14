@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>/Aurum-Docs/</loc>
+    </url>
+    <url>
+        <loc>/Aurum-Docs/blog/</loc>
+    </url>
+    <url>
+        <loc>/Aurum-Docs/docs/</loc>
+    </url>
+    <url>
+        <loc>/Aurum-Docs/docs/getting-started/</loc>
+    </url>
+    <url>
+        <loc>/Aurum-Docs/docs/getting-started/introduction/</loc>
+        <lastmod>2021-05-01T08:00:00+00:00</lastmod>
+    </url>
+</urlset>
