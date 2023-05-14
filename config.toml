@@ -1,4 +1,4 @@
-base_url = "/"
+base_url = "/Aurum-Docs/"
 title = "Aurum"
 description = "Aurum is a GUI client for v2ray core"
 theme = "adidoks"
